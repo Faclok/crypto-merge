@@ -1,0 +1,10 @@
+
+.transactionItem{
+    border: 1px black solid;
+    border-radius: 4px;
+    margin-bottom: 12px;
+}
+
+.transactionItem:last-child{
+    margin-bottom: 0px;
+}

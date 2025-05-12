@@ -1,0 +1,22 @@
+
+.chat{
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.message, .messageUser, .messageAdmin{
+    background-color: gray;
+    border-radius: 4px;
+    max-width: 100%;
+}
+
+.messageUser{
+    background-color: rgb(218, 218, 252);
+    align-self: flex-start;
+}
+
+.messageAdmin{
+    background-color: rgb(218, 252, 218);
+    align-self: flex-end;
+}

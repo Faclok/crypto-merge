@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  backend:
+    image: ${DOCKER_REGISTRY-}cryptomerge
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Production
+      - CORS_URL=http://localhost:3000
+    ports:
+      - "5002:8080"
+      - "5003:8081"
+    build:
+      context: .
+      dockerfile: crypto_merge/Dockerfile
+
+  web_client:
+    image: web_client
+    ports:
+      - "5001:3000"
+    environment:
+      - NODE_ENV=production
+      - WDS_SOCKET_PORT=0
+    build:
+      context: ./web_client
+      dockerfile: Dockerfile
+
+  proxy:
+    image: nginx:mainline
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+    ports:
+      - "80:80"

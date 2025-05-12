@@ -1,0 +1,10 @@
+
+.walletItem{
+    border: 1px black solid;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.walletItem:last-child{
+    margin-bottom: 0px;
+}

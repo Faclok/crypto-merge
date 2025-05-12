@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35013.160
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crypto_merge", "crypto_merge\crypto_merge.csproj", "{2674F689-4FFE-4CFF-B14C-DC09693137C7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "crypto_merge.Tg.Bot", "crypto_merge.Tg.Bot\crypto_merge.Tg.Bot.csproj", "{7205A636-AD34-4619-AD99-32161CEA4A51}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InternetDatabase", "InternetDbContext\InternetDatabase.csproj", "{873F17DD-C278-4C05-8F72-BC364636360D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusLogic", "BusLogic\BusLogic.csproj", "{C1A9C6B3-854F-4621-91C8-6FF27CF44C16}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C99FB94C-318E-48BD-A11E-AC6A545229CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "telegram_client", "telegram_client\telegram_client\telegram_client.csproj", "{661FBD0B-AE13-4285-AA90-8A91C82E192B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "telegram_client_two", "telegram_client\telegram_client_two\telegram_client_two.csproj", "{AF572177-B18A-406B-91F2-A379B5DA0CE7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2674F689-4FFE-4CFF-B14C-DC09693137C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2674F689-4FFE-4CFF-B14C-DC09693137C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2674F689-4FFE-4CFF-B14C-DC09693137C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2674F689-4FFE-4CFF-B14C-DC09693137C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7205A636-AD34-4619-AD99-32161CEA4A51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7205A636-AD34-4619-AD99-32161CEA4A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7205A636-AD34-4619-AD99-32161CEA4A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7205A636-AD34-4619-AD99-32161CEA4A51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{873F17DD-C278-4C05-8F72-BC364636360D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{873F17DD-C278-4C05-8F72-BC364636360D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{873F17DD-C278-4C05-8F72-BC364636360D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{873F17DD-C278-4C05-8F72-BC364636360D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1A9C6B3-854F-4621-91C8-6FF27CF44C16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1A9C6B3-854F-4621-91C8-6FF27CF44C16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1A9C6B3-854F-4621-91C8-6FF27CF44C16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1A9C6B3-854F-4621-91C8-6FF27CF44C16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C99FB94C-318E-48BD-A11E-AC6A545229CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99FB94C-318E-48BD-A11E-AC6A545229CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C99FB94C-318E-48BD-A11E-AC6A545229CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99FB94C-318E-48BD-A11E-AC6A545229CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{661FBD0B-AE13-4285-AA90-8A91C82E192B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{661FBD0B-AE13-4285-AA90-8A91C82E192B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{661FBD0B-AE13-4285-AA90-8A91C82E192B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{661FBD0B-AE13-4285-AA90-8A91C82E192B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF572177-B18A-406B-91F2-A379B5DA0CE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF572177-B18A-406B-91F2-A379B5DA0CE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF572177-B18A-406B-91F2-A379B5DA0CE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF572177-B18A-406B-91F2-A379B5DA0CE7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {32D141D6-9772-4252-AD1E-1D74F753D983}
+	EndGlobalSection
+EndGlobal
